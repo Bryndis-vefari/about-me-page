@@ -32,8 +32,6 @@ header {
 	padding-right: 2rem;
 	background-color: black;
 }
-
-
 header nav ul {
 	padding: 0;
 }
@@ -41,13 +39,11 @@ header nav ul li {
 	display: inline-block;
 	margin: 5px;
 }
-
 header nav ul li a {
 	padding: 5px 3px;
 	color: white;
 	text-decoration: none;
 }
-
 header nav ul li a:hover {
 	color: #b65050;
 }
@@ -62,6 +58,10 @@ header nav ul li a:hover {
 	bottom: 1rem;
 	left: 1rem;
 	color: #b65050;
+}
+
+.wrapper {
+	margin: 40px
 }
 .section {
 	background-color:#fbdfdf;
@@ -119,11 +119,6 @@ footer ul li a:hover {
 	color: #b65050;
 }
 
-/* Section styles */
-
-.wrapper {
-	margin: 40px
-}
 /* Image styles */
 
 .portrait {
